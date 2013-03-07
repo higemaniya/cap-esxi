@@ -1,0 +1,34 @@
+{
+	"centos6":{
+		"path": "[main] test",
+		"os": "centos-64",
+		"numvcpus": 1,
+		"disksize": "8G",
+		"memsize": 1024,
+		"virtualdev": "lsilogic"
+	},
+	"freebsd9":{
+		"path": "[main] freebsd9",
+		"os": "freebsd-64",
+		"numvcpus": 2,
+		"disksize": "8G",
+		"memsize": 1024,
+		"vnc": {
+			"port": 5901,
+			"password": "vncpass"
+		},
+		"virtualdev": "lsilogic"
+	},
+	"debian6":{
+		"path": "[main] debian6",
+		"os": "debian6-64",
+		"numvcpus": 1,
+		"disksize": "8G",
+		"memsize": 1024,
+		"vnc": {
+			"port": 5902,
+			"password": "vncpass"
+		},
+		"virtualdev": "lsilogic"
+	}
+}
